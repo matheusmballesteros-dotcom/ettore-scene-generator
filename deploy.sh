@@ -22,7 +22,7 @@ if ! gh auth status &> /dev/null; then
     exit 1
 fi
 
-cd "$(dirname "$0")"
+cd /home/claude/ettore-scene-generator
 
 # Inicializa git
 echo "📦 Inicializando repositorio Git..."
